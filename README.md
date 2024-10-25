@@ -138,6 +138,6 @@ docker run -d --name devtest -v volumename:/app nginx:latest
 ```
 
 <div align="center">
-  <img src="SS/7.png"/>
+  <img src="SS/7.PNG"/>
 </div>
 
