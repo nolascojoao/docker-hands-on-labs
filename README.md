@@ -1,5 +1,15 @@
+# Docker Hands On Labs
+
 This repository is for hands-on practice of the ['Docker Containers and Kubernetes Fundamentals – Full Hands-On Course' from YouTube](https://www.youtube.com/watch?v=kTp5xUtcalw)
+
 #
+
+## Environment
+
+Update packages
+```bash
+sudo dnf update
+```
 
 Installing Docker
 ```bash
