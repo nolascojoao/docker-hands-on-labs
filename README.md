@@ -115,3 +115,29 @@ docker rmi nginx
 <div align="center">
   <img src="SS/6.PNG"/>
 </div>
+
+---
+
+## Mapping Volume
+
+Create volume
+```bash
+docker volume create volumename
+```
+Inspect volume
+```bash
+docker volume inspect volumename
+```
+List volumes
+```bash
+docker volume ls
+```
+Run container with volume
+```bash
+docker run -d --name devtest -v volumename:/app nginx:latest
+```
+
+<div align="center">
+  <img src="SS/7.png"/>
+</div>
+
