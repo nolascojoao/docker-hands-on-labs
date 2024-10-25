@@ -51,8 +51,10 @@ docker run -d -p 8080:80 --name webserver nginx
 ```
 
 <div align="center">
-  <img src="SS/1.png"/>
+  <img src="SS/1.PNG"/>
 </div>
+
+#
 
 List the running containers
 ```bash
@@ -64,8 +66,10 @@ docker images
 ```
 
 <div align="center">
-  <img src="SS/3.png"/>
+  <img src="SS/3.PNG"/>
 </div>
+
+#
 
 Root access to the Nginx container
 ```bash
@@ -77,8 +81,10 @@ docker stop webserver
 ```
 
 <div align="center">
-  <img src="SS/4.png"/>
+  <img src="SS/4.PNG"/>
 </div>
+
+#
 
 Remove the container from memory
 ```bash
@@ -86,8 +92,10 @@ docker rm webserver
 ```
 
 <div align="center">
-  <img src="SS/5.png"/>
+  <img src="SS/5.PNG"/>
 </div>
+
+#
 
 Remove the image
 ```bash
@@ -95,5 +103,5 @@ docker rmi nginx
 ```
 
 <div align="center">
-  <img src="SS/6.png"/>
+  <img src="SS/6.PNG"/>
 </div>
